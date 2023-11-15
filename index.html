@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./styles/style.css">
+     <title>Car table</title>
+</head>
+<body>
+     
+     <div class="wrapper">
+          <form>
+               <select name="cars" id="cars">
+                    <option disabled selected value="">Mashinani tanlang</option>
+                    <option value="Damas">Damas</option>
+                    <option value="Spark">Spark</option>
+                    <option value="Gentra">Gentra</option>
+                    <option value="Cobalt">Cobalt</option>
+                    <option value="Matiz">Matiz</option>
+               </select>
+
+               <select name="status" id="filter-status">
+                    <option disabled selected value="">Holatini tanlang</option>
+                    <option value="active">Sotilmagan</option>
+                    <option value="inactive">Sotilgan</option>
+               </select>
+
+               <select name="year" id="year">
+                    <option disabled selected value="">Yilni tanlang</option>
+                    <option value="2013">2013</option>
+                    <option value="2009">2009</option>
+                    <option value="2022">2022</option>
+                    <option value="2014">2014</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+               </select>
+
+               <select name="price" id="price">
+                    <option disabled selected value="">Narxni tanlang</option>
+                    <option value="8500">8500</option>
+                    <option value="5000">5000</option>
+                    <option value="3500">3500</option>
+                    <option value="4500">4500</option>
+                    <option value="14500">14500</option>
+                    <option value="10500">10500</option>
+                    <option value="3600">3600</option>
+                    <option value="13500">13500</option>
+               </select>
+
+               <select name="color" id="color">
+                    <option disabled selected value="">Rangni tanlang</option>
+                    <option value="white">Oq</option>
+                    <option value="black">Qora</option>
+                    <option value="blue">Ko'k</option>
+               </select>
+
+
+               
+          </form>
+          <table>
+               <thead>
+                    <tr>
+                         <th>No</th>
+                         <th>Nomi</th>
+                         <th>Yili</th>
+                         <th>Rangi</th>
+                         <th>Narxi</th>
+                         <th>Holati</th>
+                    </tr>
+               </thead>
+               <tbody id="tbody">
+                    <!-- <tr>
+                         <td>1</td>
+                         <td>Damas</td>
+                         <td>2010</td>
+                         <td>Oq</td>
+                         <td>6000</td>
+                         <td>Sotilmagan</td>
+                    </tr>
+
+                    <tr>
+                         <td>2</td>
+                         <td>Matiz</td>
+                         <td>2008</td>
+                         <td>Qora</td>
+                         <td>3000</td>
+                         <td>Sotilgan</td>
+                    </tr> -->
+               </tbody>
+          </table>
+     </div>
+
+     <script src="./js/index.js" type="module"></script>
+</body>
+</html>
